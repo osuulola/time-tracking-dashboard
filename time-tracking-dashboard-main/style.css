@@ -1,0 +1,97 @@
+* {
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red-work: hsl(15, 100%, 70%);
+    --Soft-blue-play: hsl(195, 74%, 62%);
+    --Light-red-study: hsl(348, 100%, 68%);
+    --Lime-green-exercise: hsl(145, 58%, 55%);
+    --Violet-social: hsl(264, 64%, 52%);
+    --Soft-orange-selfcare: hsl(43, 84%, 65%);
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+body {
+    font-family: 'Rubik';
+    background: var(--Very-dark-blue);
+    color: #fff;
+    padding: 70px;
+}
+.container {
+    display: flex;
+}
+.card-grp {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 20px;
+    
+}
+.card {
+    background: var(--Dark-blue);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px
+}
+.freq {
+    color:var(--Desaturated-blue);
+}
+.report {
+    background-color: var(--Blue);
+    margin: -10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#jeremy {
+    border: 2px solid #fff;
+    border-radius: 50%;
+
+}
+#work {
+    background: var(--Light-red-work);
+    background-image: url(images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    height:25px;
+}
+#play {
+    background: var(--Soft-blue-play);
+    background-image: url(images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    height: 25px;
+}
+#study {
+    background: var(--Light-red-study);
+    background-image: url(images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    height: 25px;
+}
+#exercise {
+    background: var(--Lime-green-exercise);
+    background-image: url(images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    height: 25px;
+}
+#social {
+    background: var(--Violet-social);
+    background-image: url(images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    height: 25px;
+}
+#self {
+    background: var(--Soft-orange-selfcare);
+    background-image: url(images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    height: 25px;
+}
+h1 {
+    font-size: 40;
+}
+.first-line {
+    display: flex;
+    justify-content: space-between;
+}
