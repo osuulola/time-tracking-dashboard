@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="report">
+        <img src="images/image-jeremy.png" alt="" id="jeremy"height='50'>
+        <p>Report for</p>
+        <h1>Jeremy Robson</h1>
+      </div>
+      <div class="freq">
+        <p id="daily">Daily</p>
+        <p id="weekly">Weekly</p>
+        <p id="monthly">Monthly</p> 
+      </div>
+     
+    </div>
+    <div class="card-grp">
+      <div class="card" id="wor">
+        <div class="report" id='work'></div>
+        <div class="first-line">
+          <p>Work</p>
+          <p>...</p>
+        </div>
+        
+        <h1></h1><!--5hrs daily -->
+         <p id="pr-wrk"></p><!--Previous - 7hrs daily -->
+         <!-- 32hrsweekly -->
+        <!-- Previous - 36hrs weekly -->
+        <!-- 103hrs monthly -->
+         <!--Previous - 128hrs monthly -->
+      </div>
+      <div class="card">
+        <div class="report" id="play"></div>
+        <div class="first-line">
+          <p >Play</p>
+          <p>...</p>
+        </div>
+        <h1 id="play-h1"></h1> <!--1hr daily -->
+        <p id="pr-play"></p> <!-- Previous - 2hrsdaily -->
+         <!--10hrs weekly -->
+         <!--Previous - 8hrs weekly -->
+         <!--23hrs monthly -->
+         <!--Previous - 29hrs monthly -->
+      </div>
+      <div class="card">
+        <div class="report" id="study"></div>
+        <div class="first-line">
+          <p >Study</p>
+          <p>...</p>
+        </div>
+        <h1 id="study-h1"></h1> <!--0hrs daily -->
+        <p id="pr-study"></p> <!--Previous - 1hr daily -->
+         <!--4hrs weekly -->
+         <!--Previous - 7hrs weekly -->
+         <!--13hrs monthly -->
+         <!--Previous - 19hrs monthly -->
+      </div>
+      <div class="card">
+        <div class="report" id="exercise"></div>
+        <div class="first-line">
+          <p >Exercise</p>
+          <p>...</p>
+        </div>
+        <h1 id="exer-h1"></h1> <!--1hr daily -->
+        <p id="pr-exer"></p> <!--Previous - 1hr daily -->
+         <!--4hrs weekly -->
+         <!--Previous - 5hrs weekly -->
+         <!--11hrs monthly -->
+         <!--Previous - 18hrs monthly --> 
+      </div>
+      <div class="card">
+        <div class="report" id="social"></div>
+        <div class="first-line">
+          <p >Social</p>
+          <p>...</p>
+        </div>
+        <h1 id="social-h1"></h1> <!--1hr daily -->
+        <p id="pr-social"></p> <!--Previous - 3hrs daily -->
+         <!--5hrs weekly -->
+         <!--Previous - 10hrs weekly -->
+         <!--21hrs monthly -->
+         <!--Previous - 23hrs monthly -->
+      </div>
+      <div class="card">
+        <div class="report" id="self"></div>
+        <div class="first-line">
+          <p >Self Care</p>
+          <p>...</p>
+        </div>
+        <h1 id="self-h1"></h1> <!--0hrs daily -->
+        <p id="pr-self"></p> <!--Previous - 1hr daily -->
+         <!--2hrs weekly -->
+         <!--Previous - 2hrs weekly -->
+         <!--7hrs monthly -->
+         <!--Previous - 11hrs monthly -->
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
